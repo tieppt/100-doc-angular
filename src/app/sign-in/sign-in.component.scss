@@ -1,0 +1,20 @@
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sign-in-form {
+  margin: 0 auto;
+  max-width: 360px;
+  padding: 5em 1em;
+  .mat-form-field {
+    display: block;
+    width: 100%;
+  }
+  .row-actions {
+    display: flex;
+    place-content: flex-end;
+  }
+}
